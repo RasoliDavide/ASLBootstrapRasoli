@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head lang="it">
+		<meta charset="UTF8">
+		<title>BTS_4 - 5.1</title>
+		<meta name="author" content="Davide Rasoli">
+		
+		<link rel="stylesheet" type="text/css" href="CSSMod.css">
+		<link rel="stylesheet" type="text/css" href="CSSMio.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		
+	</head>
+	<body class="bg-secondary">
+		<header class="bg-primary titolo">
+			<h1 class="text-secondary text-center">Pizza</h1>
+		</header>
+		<div class="row">
+			<div class="col-sm-3">
+				<ul class="list-group">
+					<li class="list-group-item lh">
+						<a class="nav-link" href="PizzaA1.html" target="if">
+							Pizza
+						</a>
+					</li>
+					<li class="list-group-item lh">
+						<a class="nav-link" href="PizzaB1.html" target="if">
+							Pizza con salame
+						</a>
+					</li>
+					<li class="list-group-item lh">
+						<a class="nav-link" href="PizzaC1.html" target="if">
+							Pizza con salame piccante <span class="badge badge-secondary">Novita</span>
+						</a>
+					</li>
+				</ul>
+				<div class="card">
+					<img class="card-img-top" src="inv.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Inventore della pizza</h4>
+						<p class="card-text">La pizza Margherita risale agli anni 1796-1810</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<iframe src="PizzaA1.html" class="finestra" name="if">
+				</iframe>
+				<ul class="pagination justify-content-end">
+					<li class="page-item"><a class="page-link" href="PizzaA1.html" target="if">1</a></li>
+					<li class="page-item"><a class="page-link" href="PizzaA2.html" target="if">2</a></li>
+					<li class="page-item"><a class="page-link" href="PizzaB1.html" target="if">3</a></li>
+					<li class="page-item"><a class="page-link" href="PizzaB2.html" target="if">4</a></li>
+					<li class="page-item"><a class="page-link" href="PizzaC1.html" target="if">5</a></li>
+					<li class="page-item"><a class="page-link" href="PizzaC2.html" target="if">6</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Info">Piu info</button>
+				<div id="Info" class="collapse">
+					La storia della pizza e lunga, complessa e incerta. Le prime attestazioni scritte della parola "pizza" risalgono al latino volgare di Gaeta
+					nel 997 e in un contratto di locazione con data sul retro 31 gennaio 1201 a Sulmona ed in seguito in quello di altre citta italiane come 
+					Roma, L'Aquila, Pesaro, Penne, ecc.
+					Nel XVI secolo a Napoli ad un pane schiacciato venne dato il nome di pizza che deriva dalla storpiatura della parola "Pitta".
+					Prima del XVII secolo la pizza era coperta con salsa bianca[senza fonte]. Fu piu tardi sostituita con olio d'oliva, formaggio, 
+					pomodori o pesce: nel 1843, Alexandre Dumas (padre) descrisse la diversita dei condimenti della pizza.
+					La pizza marinara risale al 1734, mentre la pizza Margherita e degli anni 1796-1810. Nel giugno 1889, 
+					per onorare la Regina d'Italia Margherita di Savoia, il cuoco Raffaele Esposito preparo la "Pizza Margherita",
+					una pizza condita con pomodori, mozzarella e basilico, per rappresentare i colori della bandiera italiana[3].
+				</div>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+.center
+{
+	text-align: center;
+}
+.lh:hover
+{
+	background-color: #adb5bd;
+}
+.titolo
+{
+	height: 50px;
+	margin: 0px 0px 10px 0px;
+}
+.finestra
+{
+	height: 450px;
+	border: 1px solid;
+	width: 100%;
+}

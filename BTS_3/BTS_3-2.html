@@ -15,17 +15,44 @@
 		<style>
 			.ut
 			{
-				max-width: 33%;
+				width: 32%;
 			}
 			
 		</style>
 	</head>
 	<body>
-		<div class="jumbotron ut">
+		<div class="jumbotron ut"  style="display: inline-block;">
 			<p>Immagine 1, outlast</p>
+		</div>
+		<div class="jumbotron ut" style="position: relative;left. 33%;display: inline-block;">
+			<p>Immagine 2, 404 not found</p>
+		</div>
+		<div class="jumbotron ut" style="position: relative;left. 67%;display: inline-block;">
+			<p>Immagine 3, cane subacqueo</p>
 		</div>
 		<img src="1.jpg" class="rounded-circle float-right ut">
 		<img src="2.png" class="img-thumbnail mx-auto ut">
 		<img src="3.jpg" class="float-left rounded ut">
+		<div class="alert alert-success alert-dismissable fade show">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+			<a href="#">Torna all'inizio</a>
+		</div>
+		<button type="button" class="btn btn-outline-success">Successo!</button>
+		<button type="button" class="btn btn-outline-warning">Attenzione!</button>
+		<button type="button" class="btn btn-outline-danger">Errore!</button>
+		<br> <br>
+		<div class="btn-group">
+			<button type="button" class="btn btn-outline-success">GSuccesso!</button>
+			<button type="button" class="btn btn-outline-warning">GAttenzione!</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					GErrore!
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Errore 1</a>
+					<a class="dropdown-item" href="#">Errore 2</a>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
